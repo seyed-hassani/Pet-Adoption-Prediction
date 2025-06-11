@@ -2,11 +2,11 @@
 
 This project builds a deep learning classifier using Keras to predict whether a pet listed for adoption will find a new home or not. The model is trained on pet metadata such as age, breed, color, health status, vaccination records, and more.
 
-## 🚀 Goal
+##  Goal
 
 To accurately classify pets into "adopted" or "not adopted" based on structured data, using a binary classification neural network model.
 
-## 🧠 Model Overview
+##  Model Overview
 
 - Framework: Keras (TensorFlow backend)
 - Architecture: 3-layer Dense Neural Network (5000 → 1000 → 500 units)
@@ -15,7 +15,7 @@ To accurately classify pets into "adopted" or "not adopted" based on structured 
 - Optimizer: Adam
 - Evaluation Metric: Weighted F1 Score
 
-## 🗂 Files
+##  Files
 
 - `new_home.ipynb` – Jupyter notebook with full code
 - `submission.csv` – Binary predictions for test set
@@ -23,7 +23,7 @@ To accurately classify pets into "adopted" or "not adopted" based on structured 
 - `model_info.json` – Architecture details of the model
 - `result.zip` – Compressed output for submission
 
-## 🧪 Dataset
+##  Dataset
 
 The dataset includes features like:
 - Type, Age, Breed, Gender
@@ -34,7 +34,7 @@ The dataset includes features like:
 
 > Target: Whether the pet was adopted or not.
 
-## 📦 Requirements
+##  Requirements
 
 ```bash
 pip install -r requirements.txt
